@@ -110,15 +110,23 @@
     /* background-color: gray; */
     position: relative;
 }
-.inputdivs >textarea {
-    max-width: 720px;
+.txtarea {
+    max-width: 710px;
     width: 68%;
+    height: 288px;
+
+}
+.txtarea >textarea {
+    padding-left: 15px;
+    padding-top: 20px;
+    max-width: 720px;
+    width: 100%;
     height: 288px;
     background-color: #E8E8E8;
     border: 2px solid #F8F8F8;
 }
 .form {
-    width: 352px;
+    width: 100%;
     height: 60px;
     position:absolute;
     background-color: #E8E8E8;
@@ -144,12 +152,20 @@
     right: 0px;
     position: absolute;
     background-color: #5863F8;
-    width: 352px;
+    width: 100%;
     height: 60px;
 }
 .plane {
     width: 14px;
     height: 14px;
+}
+.inputs {
+    width: 30%;
+    max-width: 356px;
+    height: 287px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 .contactdiv {
     max-width: 1100px;
@@ -158,7 +174,6 @@
     margin-left: 139px;
     margin-top: 50px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 .maildiv {
@@ -292,7 +307,7 @@
     width: 100%;
     display: block;
 }
-.footer {
+.footr {
     max-width: 1920px;
     width: 100%;
     height: 395px;
@@ -334,12 +349,12 @@
     width: 85%;
     height: 197px;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     
 }
 .ufl {
-    width: 103px;
+    width: 33%;
+    max-width: 103px;
     height: 155px;
     display: flex;
     flex-direction: column;
@@ -377,7 +392,8 @@
     /* flex-wrap: wrap; */
 }
 .prv {
-    width: 78px;
+    max-width: 78px;
+    width: 33%;
     height: 155px;
     display: flex;
     flex-direction: column;
@@ -390,7 +406,8 @@
     color: white;
 }
 .ci {
-    width: 198px;
+    width: 33%;
+    max-width: 198px;
     height: 155px;
     display: flex;
     flex-direction: column;
@@ -398,4 +415,7 @@
 }
 .minipic {
     margin-right: 18px;
+}
+.bar{
+    display: none;
 }
