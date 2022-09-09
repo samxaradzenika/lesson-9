@@ -279,7 +279,7 @@
 .photowraper {
     max-width: 1920px;
     width: 100%;
-    height: 354px;
+    height: 352px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -302,9 +302,11 @@
 .hotel2 {
     width: 260px;
     height: 191px;
-    position: absolute;
-    top: 90px;
-    left: 139px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 .hotel2 > h2 {
     font-size: 24px;
@@ -314,4 +316,86 @@
 }
 .hotel2 > h3 {
     color: #B1B1B1;
+    width: 260px;
+    height: 83px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.logos {
+    width: 130px;
+    height: 36px;
+
+}
+.ftrwpr {
+    position: absolute;
+    top: 90px;
+    left: 139px;
+    max-width: 1035px;
+    width: 75%;
+    height: 197px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    
+}
+.ufl {
+    width: 103px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+
+}
+.ufl >h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+.ufl >h3 {
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: 500;
+}
+.prv >h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+}
+.prv >h3 {
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rightbox {
+    width: 566px;
+    height: 155px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.prv {
+    width: 78px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ci >h2  {
+    color: white;
+}
+.ci >h3   {
+    color: white;
+}
+.ci {
+    width: 198px;
+    height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.minipic {
+    margin-right: 18px;
 }
