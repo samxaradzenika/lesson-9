@@ -308,11 +308,13 @@
     display: block;
 }
 .footr {
-    max-width: 1920px;
+    max-width: 2920px;
     width: 100%;
     height: 395px;
     background-color: #000000;
-    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
 }
 .hotel2 {
     width: 260px;
@@ -342,14 +344,16 @@
 
 }
 .ftrwpr {
-    position: absolute;
+    /* position: absolute;
     top: 90px;
-    left: 139px;
-    max-width: 1035px;
-    width: 85%;
+    left: 139px; */
+    max-width: 1535px;
+    width: 80%;
+    justify-content: space-between  ;
+    /* width: 85%; */
     height: 197px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 .ufl {
@@ -385,10 +389,12 @@
     font-weight: 500;
 }
 .rightbox {
-    width: 566px;
+    max-width: 466px;
+    width: 50%;
     height: 155px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
     /* flex-wrap: wrap; */
 }
 .prv {
@@ -406,7 +412,6 @@
     color: white;
 }
 .ci {
-    width: 33%;
     max-width: 198px;
     height: 155px;
     display: flex;
