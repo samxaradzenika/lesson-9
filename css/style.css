@@ -104,24 +104,28 @@
 .inputdivs {
     max-width: 1088px;
     width: 80%;
-    height: 582px;
+    height: 290px;
     margin-left: 139px;
     margin-top: 56px;
-    background-color: gray;
+    /* background-color: gray; */
     position: relative;
 }
 .inputdivs >textarea {
     max-width: 720px;
     width: 68%;
     height: 288px;
+    background-color: #E8E8E8;
+    border: 2px solid #F8F8F8;
 }
 .form {
     width: 352px;
     height: 60px;
     position:absolute;
+    background-color: #E8E8E8;
+    border: 2px solid #F8F8F8;
 }
 .f {
-   
+    
     right:0px;
     top: 0px;
 }
@@ -140,4 +144,174 @@
     right: 0px;
     position: absolute;
     background-color: #5863F8;
+    width: 352px;
+    height: 60px;
+}
+.plane {
+    width: 14px;
+    height: 14px;
+}
+.contactdiv {
+    max-width: 1100px;
+    width: 80%;
+    height: 147px;
+    margin-left: 139px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.maildiv {
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    background-color: #5863F8;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+.phonediv {
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    background-color: #5863F8;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+
+}
+.locationdiv {
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    background-color: #5863F8;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+
+}
+.div1 {
+    width: 362px;
+    height: 147px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+
+}
+.div2 {
+    width: 352px;
+    height: 147px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+
+}
+.div3 {
+    width: 362px;
+    height: 147px;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+
+}
+.div1 >h2 {
+    width: 50px;
+    height: 25px;
+    font-weight: 700;
+    
+}
+.div2 >h2 {
+    width: 50px;
+    height: 25px;
+    font-weight: 700;
+    
+}
+.div3 >h2 {
+    width: 50px;
+    height: 25px;
+    font-weight: 700;
+    
+}
+.div1 >h3 {
+    font-size: 14px;
+    color: #B1B1B1;
+    font-weight: 500;
+}
+.div2 >h3 {
+    font-size: 14px;
+    color: #B1B1B1;
+    font-weight: 500;
+
+}
+.div3 >h3 {
+    font-size: 14px;
+    color: #B1B1B1;
+    font-weight: 500;
+
+}
+.lastsection {
+    width: 565px;
+    height: 135px;
+    margin-top: 90px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 139px;
+
+}
+.lastsection >h2 {
+    color: #5863F8;
+    font-size: 14px;
+    font-weight: 700;
+    width: 58px;
+    height: 20px;
+}
+.lastsection >h3 {
+    height: 115px;
+    width: 565px;
+    color: #000000;
+    font-weight: 900;
+    font-size: 42px;
+}
+.photowraper {
+    max-width: 1920px;
+    width: 100%;
+    height: 354px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pic {
+    width: 352px;
+    height: 352px;
+}
+.img {
+    width: 100%;
+    display: block;
+}
+.footer {
+    max-width: 1920px;
+    width: 100%;
+    height: 395px;
+    background-color: #000000;
+    position: relative;
+}
+.hotel2 {
+    width: 260px;
+    height: 191px;
+    position: absolute;
+    top: 90px;
+    left: 139px;
+}
+.hotel2 > h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+
+}
+.hotel2 > h3 {
+    color: #B1B1B1;
 }
